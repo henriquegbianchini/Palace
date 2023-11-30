@@ -14,22 +14,22 @@
 
 /* Background Colors */
 
-.primary-bg-color {
-    background-color: var(--primary-color) !important;
+.bg-custom-st {
+    background-color: var(--primary-color);
 }
 
-.secondary-bg-color {
-    background-color: var(--secondary-color) !important;
+.bg-custom-nd {
+    background-color: var(--secondary-color);
 }
 
 /* Text Colors */
 
-.primary-txt-color {
-    color: var(--primary-color) !important;
+.color-st{
+    color: var(--primary-color);
 }
 
-.secondary-txt-color {
-    color: var(--secondary-color) !important;
+.color-nd {
+    color: var(--secondary-color);
 }
 
 /* Fonts */
@@ -48,29 +48,30 @@
 
 /* Config Button*/
 
-.button {
+.btn-custom{
     border: 1px solid var(--primary-color);
-    border-radius: 60px !important;
-    color: var(--secondary-color) !important;
+    border-radius: 60px;
+    color: var(--secondary-color);
     font-weight: 400;
-    background-color: var(--primary-color) !important;
+    background-color: var(--primary-color);
+    text-decoration: none;
 }
 
-.button:hover {
+.btn-custom:hover {
     border: 1px solid var(--secondary-color);
-    border-radius: 60px !important;
-    color: var(--primary-color) !important;
-    background-color: var(--secondary-color) !important;
+    border-radius: 60px;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 /* Config Menu*/
 
 .menu {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(99, 19, 13, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(99, 19, 13, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .close {
-    background-image: url("../assets/img/close.png") !important;
+    background-image: url("../assets/img/close.png");
 }
 
 .width {
