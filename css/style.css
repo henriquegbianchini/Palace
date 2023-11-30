@@ -1,0 +1,78 @@
+/* Import Font Calvino */
+
+@font-face {
+    font-family: calvino;
+    src: url(../assets/font/calvino/Calvino-Grande-Black-trial.ttf);
+}
+
+/* Set Variables of Color */
+
+:root {
+    --primary-color: #61120d;
+    --secondary-color: #f3b429;
+}
+
+/* Background Colors */
+
+.primary-bg-color {
+    background-color: var(--primary-color) !important;
+}
+
+.secondary-bg-color {
+    background-color: var(--secondary-color) !important;
+}
+
+/* Text Colors */
+
+.primary-txt-color {
+    color: var(--primary-color) !important;
+}
+
+.secondary-txt-color {
+    color: var(--secondary-color) !important;
+}
+
+/* Fonts */
+
+.font-calvino {
+    font-family: calvino;
+}
+
+.font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+/* Config Button*/
+
+.button {
+    border: 1px solid var(--primary-color);
+    border-radius: 60px !important;
+    color: var(--secondary-color) !important;
+    font-weight: 400;
+    background-color: var(--primary-color) !important;
+}
+
+.button:hover {
+    border: 1px solid var(--secondary-color);
+    border-radius: 60px !important;
+    color: var(--primary-color) !important;
+    background-color: var(--secondary-color) !important;
+}
+
+/* Config Menu*/
+
+.menu {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(99, 19, 13, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.close {
+    background-image: url("../assets/img/close.png") !important;
+}
+
+.width {
+    width: 70px;
+}
