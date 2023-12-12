@@ -1,18 +1,12 @@
-/* Import Font Calvino */
-
 @font-face {
     font-family: calvino;
     src: url(../assets/font/calvino/Calvino-Grande-Black-trial.ttf);
 }
 
-/* Set Variables of Color */
-
 :root {
     --primary-color: #61120d;
     --secondary-color: #f3b429;
 }
-
-/* Background Colors */
 
 .bg-custom-st {
     background-color: var(--primary-color);
@@ -22,8 +16,6 @@
     background-color: var(--secondary-color);
 }
 
-/* Text Colors */
-
 .color-st{
     color: var(--primary-color) !important;
 }
@@ -31,8 +23,6 @@
 .color-nd {
     color: var(--secondary-color);
 }
-
-/* Fonts */
 
 .font-calvino {
     font-family: calvino;
@@ -46,9 +36,8 @@
     font-weight: 800;
 }
 
-/* Config Button*/
-
 .btn-custom{
+    width: 120px;
     border: 1px solid var(--primary-color);
     border-radius: 60px;
     color: var(--secondary-color);
